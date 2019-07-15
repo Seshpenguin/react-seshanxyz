@@ -48,7 +48,7 @@ class Home extends Component {
                         <div dangerouslySetInnerHTML={{__html: this.state.homeContent}} />
                     </Jumbotron>
                 </Container>
-                <Circle time={100} customLoading={!this.state.contentLoaded} />
+                <Circle time={0} customLoading={!this.state.contentLoaded} />
             </div>
         );
     }
