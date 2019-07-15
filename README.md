@@ -9,7 +9,7 @@ and fetches the actual site content using the WordPress API. This basically make
 Mostly for fun. I want to play with React more, so why not create yet another version of my website!
 
 ## What will happen to xyzwp???
-`xyzwp` (the current WordPress theme) will stay for the foreseeable future as the default version as my website. This 
+[`xyzwp`](https://github.com/Seshpenguin/xyzwp/) (the current WordPress theme) will stay for the foreseeable future as the default version as my website. This 
 React frontend will be available as an opt-in option when it's more feature complete.
 
 The current plan is when I'm satisfied with this React frontend, it will become the default version of the site. `xyzwp` 
