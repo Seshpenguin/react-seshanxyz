@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
 import dayjs from 'dayjs';
 
 // Pages
@@ -24,7 +24,7 @@ class App extends Component {
                         <NavLink to="/posts" style={NavButtonStyleLink} activeStyle={NavButtonStyleActive}>Blog</NavLink>
                         <NavLink to="/about" style={NavButtonStyleLink} activeStyle={NavButtonStyleActive}>About</NavLink>
                     </nav>
-                    <p></p>
+                    <p/> {/* The p is for formatting */}
                     <div>
                         <Switch>
                             <Route path="/" exact component={Home} />
@@ -39,7 +39,8 @@ class App extends Component {
                     <nav style={NavStyle} className={'footer'}>
                         <div style={NavButtonStyle}>&copy; {dayjs().format('YYYY')} Seshan Ravikumar.</div>
                         <div style={NavButtonStyle}>This website is Free Software under the GNU AGPL 3.0.</div>
-                        <a href="https://seshan.xyz/" style={NavButtonStyleLink}>View the Regular Site.</a>
+                        <a href="https://github.com/Seshpenguin/react-seshanxyz" style={NavButtonStyleLink}>Get the Source Code.</a>
+                        <a href="https://seshan.xyz/" style={NavButtonStyleLink}>Go Back to the Regular Site.</a>
                     </nav>
                 </div>
             </Router>

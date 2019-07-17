@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56cc1989-9ee5-4f54-a855-960e51a6341c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dmt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.4be338510503359cae3a72dfde92121a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/2.266e55a5.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/2.266e55a5.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.a61ab412.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.a61ab412.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.d8c65a32.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.d8c65a32.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.168f289d.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.168f289d.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime~main.bb50a20d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime~main.bb50a20d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/bg.ddd42a7e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/tile-bg.aecb062e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ViewPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.4be338510503359cae3a72dfde92121a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d8c65a32.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d8c65a32.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.168f289d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.168f289d.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="280">
+              <caret line="41" column="104" lean-forward="true" selection-start-line="41" selection-start-column="104" selection-end-line="41" selection-end-column="104" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#131#163#0" expanded="true" />
@@ -73,13 +51,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/NotFound.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -130,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/public/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -148,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -173,7 +151,6 @@
       <list>
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/API/API.js" />
         <option value="$PROJECT_DIR$/src/Pages/404.js" />
         <option value="$PROJECT_DIR$/src/Pages/NotFound.js" />
@@ -186,6 +163,7 @@
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -283,12 +261,12 @@
       <workItem from="1562963975740" duration="853000" />
       <workItem from="1563196336423" duration="651000" />
       <workItem from="1563203446652" duration="13533000" />
-      <workItem from="1563368788384" duration="14990000" />
+      <workItem from="1563368788384" duration="17598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30027000" />
+    <option name="totallyTimeSpent" value="32635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -349,16 +327,6 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="340">
-            <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/API/API.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -406,7 +374,7 @@
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -426,7 +394,7 @@
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -454,10 +422,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="280">
+          <caret line="41" column="104" lean-forward="true" selection-start-line="41" selection-start-column="104" selection-end-line="41" selection-end-column="104" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#131#163#0" expanded="true" />
