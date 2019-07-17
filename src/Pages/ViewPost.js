@@ -36,7 +36,6 @@ class ViewPost extends Component {
 
     render() {
         console.log(this.state.pageToLoad);
-        // Loop through posts to render.
         let postJSX;
         if(this.state.contentLoaded) {
             postJSX = (
