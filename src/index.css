@@ -7,9 +7,23 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
     background-image: url('Assets/tile-bg.png');
     background-repeat: repeat-y;
+    height:100%;
+}
+.react-root-flex {
+    display:flex;
+    flex-direction:column;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    margin-top: auto;
 }

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.a61ab412.chunk.css",
+    "main.js": "/react/static/js/main.168f289d.chunk.js",
+    "main.js.map": "/react/static/js/main.168f289d.chunk.js.map",
+    "runtime~main.js": "/react/static/js/runtime~main.bb50a20d.js",
+    "runtime~main.js.map": "/react/static/js/runtime~main.bb50a20d.js.map",
+    "static/css/2.266e55a5.chunk.css": "/react/static/css/2.266e55a5.chunk.css",
+    "static/js/2.d8c65a32.chunk.js": "/react/static/js/2.d8c65a32.chunk.js",
+    "static/js/2.d8c65a32.chunk.js.map": "/react/static/js/2.d8c65a32.chunk.js.map",
+    "index.html": "/react/index.html",
+    "precache-manifest.4be338510503359cae3a72dfde92121a.js": "/react/precache-manifest.4be338510503359cae3a72dfde92121a.js",
+    "service-worker.js": "/react/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/react/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.a61ab412.chunk.css.map": "/react/static/css/main.a61ab412.chunk.css.map",
+    "static/media/bg.jpg": "/react/static/media/bg.ddd42a7e.jpg",
+    "static/media/index.css": "/react/static/media/tile-bg.aecb062e.png"
+  }
+}

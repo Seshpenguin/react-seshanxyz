@@ -1,8 +1,9 @@
 import React, {Component} from "react";
-import { Container, Jumbotron, Button } from 'react-bootstrap';
-import axios from 'axios';
+import { Container, Jumbotron } from 'react-bootstrap';
 import { Circle } from 'react-preloaders';
 import {Helmet} from 'react-helmet';
+
+import { loadPage } from "../API/API";
 
 class Home extends Component {
     // eslint-disable-next-line no-useless-constructor
@@ -14,37 +15,22 @@ class Home extends Component {
         };
 
         // Call the WP REST API and populate content.
-        this.loadDataFromWP().then((data) => {
-            console.log(data);
-            setTimeout(() => {
-                this.setState({
-                    contentLoaded: true,
-                    homeContent: data
-                });
-            }, 0);
+        loadPage(2).then((data) => {
+            this.setState({
+                contentLoaded: true,
+                homeContent: data.content.rendered
+            });
         });
-    }
-
-    async loadDataFromWP() {
-        try {
-            const response = await axios.get('https://seshan.xyz/wp-json/wp/v2/pages/2');
-            //console.log(response.data.content.rendered);
-            return response.data.content.rendered;
-        } catch (error) {
-            console.error(error);
-            return "Error Loading Data";
-        }
     }
 
     render() {
         return (
             <div>
                 <Helmet>
-                    <title>Seshan's Personal Website - Home</title>
+                    <title>Home - Seshan's Personal Website</title>
                 </Helmet>
                 <Container>
                     <Jumbotron>
-                        <h1>Hello, world!</h1>
                         <div dangerouslySetInnerHTML={{__html: this.state.homeContent}} />
                     </Jumbotron>
                 </Container>
