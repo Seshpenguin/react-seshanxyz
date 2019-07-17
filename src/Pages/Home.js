@@ -15,7 +15,7 @@ class Home extends Component {
         };
 
         // Call the WP REST API and populate content.
-        loadPage(2).then((data) => {
+        loadPage(2).then((data) => { // "2" is the home page set in WordPress.
             this.setState({
                 contentLoaded: true,
                 homeContent: data.content.rendered

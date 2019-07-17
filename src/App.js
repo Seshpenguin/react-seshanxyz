@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-router-dom";
+import dayjs from 'dayjs';
 
 // Pages
 import Home from "./Pages/Home";
@@ -19,11 +20,11 @@ class App extends Component {
                 <div style={RootStyle} className={'react-root-flex'}>
                     <nav style={NavStyle}>
                         <div style={NavButtonStyle}>Seshan Ravikumar</div>
-                        <Link to="/" style={NavButtonStyle}>Home</Link>
-                        <Link to="/posts" style={NavButtonStyle}>Blog</Link>
-                        <Link to="/about" style={NavButtonStyle}>About</Link>
+                        <NavLink to="/" exact style={NavButtonStyleLink} activeStyle={NavButtonStyleActive}>Home</NavLink>
+                        <NavLink to="/posts" style={NavButtonStyleLink} activeStyle={NavButtonStyleActive}>Blog</NavLink>
+                        <NavLink to="/about" style={NavButtonStyleLink} activeStyle={NavButtonStyleActive}>About</NavLink>
                     </nav>
-                    <br />
+                    <p></p>
                     <div>
                         <Switch>
                             <Route path="/" exact component={Home} />
@@ -36,8 +37,9 @@ class App extends Component {
                     </div>
                     <br />
                     <nav style={NavStyle} className={'footer'}>
-                        <div style={NavButtonStyle}>(c) 2019 Seshan Ravikumar.</div>
+                        <div style={NavButtonStyle}>&copy; {dayjs().format('YYYY')} Seshan Ravikumar.</div>
                         <div style={NavButtonStyle}>This website is Free Software under the GNU AGPL 3.0.</div>
+                        <a href="https://seshan.xyz/" style={NavButtonStyleLink}>View the Regular Site.</a>
                     </nav>
                 </div>
             </Router>
@@ -55,6 +57,14 @@ const NavButtonStyle = {
     padding: '1em',
     color: 'white',
     borderRightStyle: 'solid'
+};
+const NavButtonStyleLink = {
+    ...NavButtonStyle,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)'
+};
+const NavButtonStyleActive = {
+    ...NavButtonStyle,
+    backgroundColor: 'rgba(255, 255, 255, 0.6)'
 };
 
 export default App;
