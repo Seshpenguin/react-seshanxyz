@@ -7,10 +7,6 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _HTMLRoot = _interopRequireDefault(require("./HTMLRoot"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29,27 +25,29 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-var HomeScreen =
+var NotFound =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(HomeScreen, _Component);
+  _inherits(NotFound, _Component);
 
-  function HomeScreen() {
-    _classCallCheck(this, HomeScreen);
+  function NotFound(props) {
+    var _this;
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(HomeScreen).apply(this, arguments));
+    _classCallCheck(this, NotFound);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(NotFound).call(this, props));
+    _this.props.staticContext.isNotFound = true;
+    return _this;
   }
 
-  _createClass(HomeScreen, [{
+  _createClass(NotFound, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement(_HTMLRoot.default, {
-        title: 'Home'
-      }, _react.default.createElement("h1", null, "Test ", this.props.data), _react.default.createElement("p", null, "We are running ", _react.default.version));
+      return _react.default.createElement("p", null, "Error 404 (Not Found)! This doesn't exist, sadly.");
     }
   }]);
 
-  return HomeScreen;
+  return NotFound;
 }(_react.Component);
 
-exports.default = HomeScreen;
+exports.default = NotFound;

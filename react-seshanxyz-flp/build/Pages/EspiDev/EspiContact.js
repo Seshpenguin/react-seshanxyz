@@ -25,25 +25,29 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-var HTMLRoot =
+var EspiContact =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(HTMLRoot, _Component);
+  _inherits(EspiContact, _Component);
 
-  function HTMLRoot() {
-    _classCallCheck(this, HTMLRoot);
+  function EspiContact() {
+    _classCallCheck(this, EspiContact);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(HTMLRoot).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(EspiContact).apply(this, arguments));
   }
 
-  _createClass(HTMLRoot, [{
+  _createClass(EspiContact, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("html", null, _react.default.createElement("head", null, _react.default.createElement("title", null, this.props.title, " - React Seshan.XYZ FLP")), _react.default.createElement("body", null, this.props.children));
+      return _react.default.createElement("div", {
+        dangerouslySetInnerHTML: {
+          __html: this.props.staticContext.WPData.espi.contact
+        }
+      });
     }
   }]);
 
-  return HTMLRoot;
+  return EspiContact;
 }(_react.Component);
 
-exports.default = HTMLRoot;
+exports.default = EspiContact;

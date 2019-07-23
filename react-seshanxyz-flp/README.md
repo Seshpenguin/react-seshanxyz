@@ -8,7 +8,12 @@ this one is interesting for a few reasons:
 * Fully Server Side Rendered (No Client-Side JS)
 * Designed with very old browsers in mind (Simple HTML)
 
-Introducing **React Seshan.XYZ - Fundamentals for Legacy PCs!** :tada:
+Introducing **React Seshan.XYZ - Fundamentals for Legacy PCs! (RSXYZ-FLP)** :tada:
 
 This website uses the ReactDOMServer to render everything to HTML, and is served by Express. (It's also transpiled by 
 Babel to support Node 4.x, mostly because the that's the latest version of NodeJS that Ubuntu 16.04 on the PowerMac G5 has).
+
+> Please don't take this code too seriously... This is kind of a dumpster fire of a website.
+
+## espi.dev
+RSXYZ-FLP also has the ability to parse data from espi.dev, and present it in plain HTML.

@@ -5,9 +5,10 @@ const presets = [
         {
             targets: "node 4",
             useBuiltIns: "usage",
-            corejs: "2"
+            corejs: "3"
         }
     ]
 ];
+const plugins = ["@babel/plugin-proposal-class-properties"];
 
-module.exports = { presets };
+module.exports = { presets, plugins };
